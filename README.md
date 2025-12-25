@@ -54,5 +54,4 @@ Trackify is a **secure, full-stack expense tracking web application** built usin
 trackify-expense-tracker/
 │── backend/
 │── frontend/
-│── screenshots/
 │── README.md
