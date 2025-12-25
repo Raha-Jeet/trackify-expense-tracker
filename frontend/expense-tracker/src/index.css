@@ -1,0 +1,75 @@
+/* =========================
+   FONT IMPORTS
+========================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* =========================
+   TAILWIND IMPORT
+========================= */
+@import "tailwindcss";
+
+/* =========================
+   FONT CLASSES
+========================= */
+.font-logo {
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+.font-playwrite {
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+/* =========================
+   THEME VARIABLES
+========================= */
+@theme {
+  --font-display: "Poppins", "sans-serif";
+  --breakpoint-3xl: 1920px;
+  --color-primary: #2E6F40; /* Primary Green */
+}
+
+/* =========================
+   BASE STYLES
+========================= */
+@layer base {
+  html {
+    font-family: var(--font-display);
+  }
+
+  body {
+    background-color: #fcfbfc;
+    overflow-x: hidden;
+  }
+}
+
+/* =========================
+   CUSTOM CLASSES
+========================= */
+.recharts-bar-rectangle:hover {
+  fill: rgba(104, 186, 127, 0.2) !important; /* Accent Green Hover */
+}
+
+.input-box {
+  @apply w-full flex justify-between gap-3 text-sm text-black bg-[#CFFFD6] rounded px-4 py-3 mb-4 mt-3 border border-[#68BA7F] outline-none;
+}
+
+.btn-primary {
+  @apply w-full text-sm font-medium text-green-200 bg-green-900 shadow-lg   p-[10px] rounded-md my-1 hover:bg-green-800 hover:text-green-200;
+}
+
+.card {
+  @apply bg-green-200 p-6 rounded-2xl shadow-md   border border-green-200;
+}
+
+.card-btn {
+  @apply flex items-center gap-3 text-[12px] font-medium text-green-200 hover:text-green-200 bg-green-900 hover:bg-green-800 px-4 py-1.5 rounded-lg border border-green-900 cursor-pointer;
+}
+
+.add-btn {
+  @apply flex items-center gap-3 text-[12px] font-medium text-green-200 hover:text-green-200 bg-green-900 hover:bg-green-800 px-4    py-1.5 rounded-lg border border-green-900 cursor-pointer;
+}
+
+.add-btn-fill {
+  @apply text-green-200 bg-green-900;
+}
