@@ -38,13 +38,13 @@ Trackify is a **secure, full-stack expense tracking web application** built usin
  
 
 ### Dashboard
-![Dashboard](Screenshot2025-08-10030310.png)
+![Dashboard](Dash.png)
 
 ### Add Expense
-![Add Expense](screenshots/add-expense.png)
+![Add Expense](ana.png)
 
 ### Analytics
-![Analytics](screenshots/analytics.png)
+![Analytics](income.png)
 
 ---
 
